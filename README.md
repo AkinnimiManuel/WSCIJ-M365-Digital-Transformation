@@ -95,9 +95,13 @@ The result was a secure, collaborative, and cloud-driven environment optimized f
 Import-Csv "new_users.csv" | ForEach-Object {
     New-MsolUser -UserPrincipalName $_.Email -DisplayName $_.Name -UsageLocation "NG" -LicenseAssignment "M365_BUSINESS_PREMIUM"
 }
+```
 
-🔹 Mailbox Forwarding Rule
+### 🔹 Mailbox Forwarding Rule
+```powershell
 Set-Mailbox -Identity "exstaff@wscij.org" -ForwardingSMTPAddress "supervisor@wscij.org" -DeliverToMailboxAndForward $true
+```
+
 
 🧠 Lessons Learned
 
