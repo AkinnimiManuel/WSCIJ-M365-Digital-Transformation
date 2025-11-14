@@ -96,3 +96,22 @@ Import-Csv "new_users.csv" | ForEach-Object {
     New-MsolUser -UserPrincipalName $_.Email -DisplayName $_.Name -UsageLocation "NG" -LicenseAssignment "M365_BUSINESS_PREMIUM"
 }
 
+🔹 Mailbox Forwarding Rule
+Set-Mailbox -Identity "exstaff@wscij.org" -ForwardingSMTPAddress "supervisor@wscij.org" -DeliverToMailboxAndForward $true
+
+🧠 Lessons Learned
+
+Importance of consistent documentation and SOP updates
+
+How Intune compliance directly improves endpoint security posture
+
+Leveraging PowerShell automation to manage repetitive admin tasks
+
+Real-world troubleshooting experience across Entra ID, Intune, and Exchange Online
+
+📎 Author
+
+Emmanuel Stefan
+Microsoft 365 Administrator | IT Support Specialist
+🌐 [LinkedIn](www.linkedin.com/in/akinnimi-stefan)
+ | 📫 akinnimimanuel@gmail.com
