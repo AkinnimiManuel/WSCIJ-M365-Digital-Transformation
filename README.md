@@ -9,6 +9,10 @@ To modernize IT workflows, I led the implementation and administration of **Micr
 
 The result was a secure, collaborative, and cloud-driven environment optimized for remote and hybrid work.
 
+## 📄 Case Study PDF
+Download the full project case study:
+👉 [WSCIJ-M365-Case-Study.pdf](documentation/WSCIJ-M365-Case-Study.pdf)
+
 
 ## 🎯 Objectives
 
