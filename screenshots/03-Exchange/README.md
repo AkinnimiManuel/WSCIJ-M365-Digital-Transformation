@@ -4,9 +4,9 @@ This folder contains screenshots for **Exchange Online** configuration.
 
 | Screenshot | Description |
 |-----------|-------------|
-| ![mailboxes](user-maiboxes.png) | Lists user mailboxes after migration from webmail and Google accounts. |
+| ![mailboxes](user-mailboxes.png) | Lists user mailboxes after migration from webmail and Google accounts. |
 | ![shared-mailboxes.png](shared-mailboxes.png) | Shows HR, Finance, and contact shared mailboxes configuration. |
-| ![migration-status.png](migration-batches) | Displays CSV import migration batch results and troubleshooting logs. |
+| ![migration-status.png](migration-batches.png) | Displays CSV import migration batch results and troubleshooting logs. |
 
 ---
 
