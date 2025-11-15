@@ -6,6 +6,7 @@ This folder contains screenshots for **Entra ID (Azure AD)** configuration.
 |-----------|-------------|
 | ![EntraDashboard](entra-dashboard.png) | Overview of WSCIJ Entra Dashboard |
 | ![users-groups](groups.gif) | Shows users and groups creation, including program-specific groups. |
+| ![password reset](password-reset.png) | Enabled password reset for users
 | ![mfa-settings](mfa-settings.png) | Demonstrates MFA setup for staff accounts. |
 | ![conditional-access](conditional-access.png) | Displays conditional access policies applied to secure devices. |
 
