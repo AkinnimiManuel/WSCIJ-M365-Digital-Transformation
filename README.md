@@ -10,9 +10,9 @@ To modernize IT workflows, I led the implementation and administration of **Micr
 The result was a secure, collaborative, and cloud-driven environment optimized for remote and hybrid work.
 
 ## 📄 Case Study PDF
+
 Download the full project case study:
 👉 [WSCIJ-M365-Case-Study.pdf](documentation/WSCIJ-M365-Case-Study.pdf)
-
 
 ## 🎯 Objectives
 
@@ -43,29 +43,34 @@ Download the full project case study:
 ## ⚙️ Implementation Steps
 
 ### 1. Identity & Access Management
+
 - Created and organized users, groups, and roles in **Entra ID**
 - Enforced **Multi-Factor Authentication (MFA)** for all staff
 - Implemented **Conditional Access Policies** to protect sign-ins
 - Configured **Self-Service Password Reset (SSPR)**
 
 ### 2. Device & Endpoint Management
+
 - Enrolled all staff laptops into **Intune**
 - Deployed compliance and configuration profiles
 - Applied security baselines (antivirus, firewall, BitLocker)
 - Enabled remote wipe for lost or decommissioned devices
 
 ### 3. SharePoint & Teams Setup
+
 - Designed departmental sites for **HR**, **Communications**, and **Programmes**
 - Created libraries with custom permission levels
 - Set up **Teams channels** mapped to departments for easier collaboration
 - Integrated Teams with SharePoint document storage
 
 ### 4. Exchange & Communication
+
 - Configured **shared mailboxes** and **distribution groups**
 - Migrated user mail data and applied retention policies
 - Managed signatures and mailbox forwarding rules via PowerShell
 
 ### 5. Automation & Support
+
 - Automated **user onboarding/offboarding** using Power Automate
 - Maintained SOPs, user guides, and knowledge base for internal support
 - Monitored system health and audit logs weekly via Admin Center
@@ -95,6 +100,7 @@ Download the full project case study:
 ## 🧾 Sample Scripts
 
 ### 🔹 Bulk User Creation (PowerShell)
+
 ```powershell
 Import-Csv "new_users.csv" | ForEach-Object {
     New-MsolUser -UserPrincipalName $_.Email -DisplayName $_.Name -UsageLocation "NG" -LicenseAssignment "M365_BUSINESS_PREMIUM"
@@ -102,10 +108,10 @@ Import-Csv "new_users.csv" | ForEach-Object {
 ```
 
 ### 🔹 Mailbox Forwarding Rule
+
 ```powershell
 Set-Mailbox -Identity "exstaff@wscij.org" -ForwardingSMTPAddress "supervisor@wscij.org" -DeliverToMailboxAndForward $true
 ```
-
 
 🧠 Lessons Learned
 
@@ -118,7 +124,6 @@ Leveraging PowerShell automation to manage repetitive admin tasks
 Real-world troubleshooting experience across Entra ID, Intune, and Exchange Online
 
 📎 Author
-
 Emmanuel Stefan
 Microsoft 365 Administrator | IT Support Specialist
 🌐 [LinkedIn](www.linkedin.com/in/akinnimi-stefan)
