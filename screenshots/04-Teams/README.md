@@ -4,9 +4,8 @@ This folder contains screenshots for **Microsoft Teams** configuration and gover
 
 | Screenshot | Description |
 |-----------|-------------|
-| `teams-policies.png` | Displays Teams policies applied to staff for meetings and chat. |
-| `teams-apps.png` | Shows allowed and blocked Teams apps per group. |
-| `teams-meetings.png` | Demonstrates meeting settings and templates applied to teams. |
+| ![teams-policies](team-policies.png) | Displays Teams policies applied to staff for meetings and chat. |
+| [teams-apps.png](teams-apps.png) | Shows allowed and blocked Teams apps per group. |
 
 ---
 
