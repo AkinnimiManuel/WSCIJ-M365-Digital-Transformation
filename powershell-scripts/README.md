@@ -309,15 +309,3 @@ Get-MgUser -All | ForEach-Object {
 
 ---
 
-# **Done.
-
-This single file fully covers your M365 PowerShell automation portfolio.**
-
-If you want, I can:
-
-✅ Format it with collapsible `<details>` sections
-✅ Add a table of contents with clickable links
-✅ Add color-coded “Beginner / Intermediate / Advanced” tags
-✅ Re-write it in a more professional tone for GitHub
-
-What should we do next?
