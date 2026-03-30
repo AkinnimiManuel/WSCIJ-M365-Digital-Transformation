@@ -34,8 +34,9 @@ Download the full project case study:
 | Collaboration | Microsoft Teams, SharePoint, OneDrive |
 | Communication | Exchange Online, Outlook |
 | Automation | PowerShell, Power Automate |
-| Monitoring | Microsoft 365 Admin Center, Defender XDR |
-| Backup & Compliance | OneDrive Backup, Microsoft Purview, Versioning |
+| Monitoring | Microsoft 365 Admin Center, Defender XDR | Microsoft Sentinel
+| Backup | OneDrive Backup, Microsoft Purview, Versioning |
+| Security & Compliance | Microsoft Purview, Microsoft Defender XDR, Microsoft Defender for cloud 
 | Documentation | SOPs, SharePoint Wiki, Knowledge Base |
 
 ---
