@@ -125,7 +125,7 @@ Leveraging PowerShell automation to manage repetitive admin tasks
 Real-world troubleshooting experience across Entra ID, Intune, and Exchange Online
 
 📎 Author
-Emmanuel Stefan
-Microsoft 365 Administrator | IT Support Specialist
+Akinnimi Stefan
+Microsoft 365 Administrator | IT Support Specialist | Security & Compliance Specialist
 🌐 [LinkedIn](www.linkedin.com/in/akinnimi-stefan)
  | 📫 akinnimimanuel@gmail.com
