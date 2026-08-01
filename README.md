@@ -64,19 +64,30 @@ Download the full project case study:
 - Designed departmental sites for **HR**, **Communications**, and **Programmes**
 - Created libraries with custom permission levels
 - Set up **Teams channels** mapped to departments for easier collaboration
-- Integrated Teams with SharePoint document storage
+- Integrated Teams with SharePoint document storage <br>
+[SharePoint Management](screenshots/05-SharePoint/README.md) <br>
+[Teams Management](screenshots/04-Teams/README.md)
 
 ### 4. Exchange & Communication
 
 - Configured **shared mailboxes** and **distribution groups**
 - Migrated user mail data and applied retention policies
-- Managed signatures and mailbox forwarding rules via PowerShell
+- Managed signatures and mailbox forwarding rules via PowerShell <br>
+[Exchange Online](screenshots/03-Exchange/README.md)
 
-### 5. Automation & Support
+### 5. Security 
+
+[Security](screenshots/06-Security/README.md)
+
+### 6. Automation & Support
 
 - Automated **user onboarding/offboarding** using Power Automate
 - Maintained SOPs, user guides, and knowledge base for internal support
-- Monitored system health and audit logs weekly via Admin Center
+- Monitored system health and audit logs weekly via Admin Center <br>
+[Power Automate](screenshots/07-Power-Automate/README.md)
+
+### 7. Microsoft Purview 
+[Purview](screenshots/08-purview/README.md)
 
 ---
 
