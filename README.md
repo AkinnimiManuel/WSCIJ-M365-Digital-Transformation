@@ -49,6 +49,8 @@ Download the full project case study:
 - Enforced **Multi-Factor Authentication (MFA)** for all staff
 - Implemented **Conditional Access Policies** to protect sign-ins
 - Configured **Self-Service Password Reset (SSPR)**
+[Users Management](./01-Admin-Center/README.md)
+[Identity & Access Management](./02-Entra-ID/README.md)
 
 ### 2. Device & Endpoint Management
 
